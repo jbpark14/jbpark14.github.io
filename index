@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CIT 160 - Assignment Portal - Jesse Park</title>
+        <meta name="description" content="This page serves as an assignment portal home page for CIT 160 - an introduction to programming using JavaScript at BYU-Idaho">       
+    </head>
+    <body>
+        <header>
+            <img src="images\Jesse.jpg" alt="Profile Picture">
+            <h1>Rubia Franseco</h1>
+            <h2>CIT 160: Assignment Portal</h2>
+        </header>
+        <main>
+            <h3> Assignment Links</h3>
+            <ul>
+                <li>Week 3: <a href="#">Assignment Link Home Page</a></li>
+                <li>Week 4: Variables</li>
+            </ul>
+        </main>
+        <footer>
+            <p>
+                Jesse Park | Idaho | <a href="https://byui.edu/online" target="_blank" title"BYU-Idaho Online Learning"> BYU-Idaho Online Learning</a> <span id="currentdate"></span>
+            </p>
+            <picture>
+                <img src="https://assets.ldscdn.org/45/fe/45fe894319e4cbd31b097aa0dcc26adf0140e8af/meridian_idaho_temple_front_view.jpeg" alt="Meridian Idaho Temple"><br>
+                <span class"caption">Meridian Idaho Temple</span>
+            </picture>
+        <script src="js\currentdate.js"></script>
+    </body>
+</html>

@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>CIT 160 - Assignment Portal - Jesse Park</title>
-        <meta name="description" content="This page serves as an assignment portal home page for CIT 160 - an introduction to programming using JavaScript at BYU-Idaho">       
+        <meta name="description" content="This page serves as an assignment portal home page for CIT 160 - an introduction to programming using JavaScript at BYU-Idaho">
+        <link rel="stylesheet" href="css\main.css">       
     </head>
     <body>
         <header>

@@ -9,7 +9,7 @@
     </head>
     <body>
         <header>
-            <img src="images\Jesse.jpg" alt="Profile Picture">
+            <img class="rightalign" src="images\Jesse.jpg" alt="Profile Picture">
             <h1>Jesse Park</h1>
             <h2>CIT 160: Assignment Portal</h2>
         </header>

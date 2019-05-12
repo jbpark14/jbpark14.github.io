@@ -22,7 +22,7 @@
         </main>
         <footer>
             <p>
-                Jesse Park | Idaho | <a href="https://byui.edu/online" target="_blank" title"BYU-Idaho Online Learning"> BYU-Idaho Online Learning</a> <span id="currentdate"></span>
+                Jesse Park | Idaho | <a href="https://byui.edu/online" target="_blank" title"BYU-Idaho Online Learning"> BYU-Idaho Online Learning | </a> <span id="currentdate"></span>
             </p>
             <picture>
                 <img src="https://assets.ldscdn.org/45/fe/45fe894319e4cbd31b097aa0dcc26adf0140e8af/meridian_idaho_temple_front_view.jpeg" alt="Meridian Idaho Temple"><br>

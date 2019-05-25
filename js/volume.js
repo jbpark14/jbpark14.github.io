@@ -1,30 +1,14 @@
-// Get Current Date
-let today = new Date(); // new Date object
-// now concatenate formatted output
-let date = (today.getMonth()+1) + " / " +  today.getDate() + " / " + today.getFullYear();
-document.getElementById('currentdate').innerHTML = date;
-
-/*Defining Table 
-Input: get radius (r) of cylinder 
-get height (h) of cylinder
-Processing: compute volume V=πr^2 * h
-Output:display volume in cubic units
-*/
+//Defining Table
+//Input: get height and radius of cylinder form user
+//Processing: compute the volume of they cyliner using the user input and this formula V=πr2h
+//Output: display the volume of the cylinder
 
 function cylinderVolume() {
 	//Input
-	let r = parseFloat(document.getElementById("radius").value); 
-	let h = parseFloat(document.getElementById("height").value); 
-	
-	if(r == "" || h == "") {
-		alert("Please fill out both the radius and height dimensions.")
-		return;
-	}else{
-	
+	let r = parseInt(document.getElementById("radius").value);
+	let h = parseInt(document.getElementById("height").value);
 	//Processing
-	let volume = Math.PI * Math.pow(r,2) * h //volume in cubic centimeters
-	let liters = volume/1000 //1000 cubic centimeters=1 liter
-
+	 let volume = Math.PI * Math.pow(r, 2) * h / 61.024;
 	//Output
-	document.getElementById("output").innerHTML = "The volume of your cylinder is approximately " + liters.toFixed(2) + " liters.";
+	document.getElementById("output").innerHTML = volume;
 }

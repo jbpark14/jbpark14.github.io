@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+        <header>
+                <h1>Week 6: Foot Wear </h1>
+                <h2>Jesse Park</h2>
+                <link rel="stylesheet" href="css\shoes.css">
+            </header>
+            <main>
+                <h3>Getting Weather Information</h3>
+                <label>Enter Weather Information: 
+                    <select id="weather">
+                        <option value="" disabled selectd >--Please choose an option --</option>
+                        <option value="hot" >Hot</option>
+                        <option value="rain" >Rain</option>
+                        <option value="snow" >Snow</option>
+                        <option value="cold" >Cold</option>
+                    </select>	
+                </label>
+                <label>
+                    <button onclick="footwear()">Recomendation </button></label>
+                <hr>
+                <p>The Foot Wear recommendation for you is: <br> <span id="output"></span></p>
+            </main>
+            <footer>
+                &copy;2019 &bull; Jesse Park &bull; BYU-Idaho &bull; CIT 160 &bull; <span id="currentdate"></span>
+                        
+            </footer>
+            <script src="js\shoes.js"></script>
+        </html>

@@ -12,15 +12,16 @@ Output: Print the value for the Result */
 
 
 //Setup
-let dayOfWeek = new Date().getDay();
+let today = new Date();
+let day = today.getDay();
 let month = today.getMonth()+1;
-let mydate = today.getDate();
+let date = today.getDate();
 //Input
 function checkAlarm() {
 	let result = "error";
 //Process
 if ((month == 1 && mydate == 1) || (month == 7 && mydate == 4) ||  (month == 12 && mydate == 25) || (dayOfWeek == 0 || dayOfWeek == 6)){
-	result = "Sleep in.";
+	result = "Sleep in!";
 }
 else {
 	result = "Get Up!";

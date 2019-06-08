@@ -12,10 +12,10 @@ Output: Print the value for the Result */
 
 
 //Setup
-    let today = new.Date();
-    let day = today.getDay();
-    let month = today.getMonth()+1;
-    let date = today.getDate();
+let today = new.Date();
+let day = today.getDay();
+let month = today.getMonth()+1;
+let date = today.getDate();
 //Input
 function checkAlarm() {
 	let result = "error";

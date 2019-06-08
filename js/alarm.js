@@ -12,7 +12,7 @@ Output: Print the value for the Result */
 
 
 //Setup
-    let today = new Date();
+    let today = new.Date();
     let day = today.getDay();
     let month = today.getMonth()+1;
     let date = today.getDate();

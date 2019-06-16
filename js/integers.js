@@ -1,20 +1,12 @@
-/*Defining Table 
-INPUT: enter a number
-PROCESSING: compute sum of all odd integers between 1 and the user's integer, inclusive; use loop to get it to run through and add all odd integers
-OUTPUT: display the toal of all odd integers between 1 and the user's integer, inclusive.
-*/
+//INPUT  get integer from user and set range of numbers allowed
+function oddSum() {
+	let n = parseInt(document.getElementById("n").value);
 
-function total() {
-	//Input
-	let n = parseInt(document.getElementById("number").value); 
-	
-	//Processing
+//PROCESSING calculate the user number and find all odd numbers less than user number.
 	let sum = 0;
-	for (let i = 1; i <= number; i+=2) {
-		sum += i
+	for(let i = 1; i <= n; i += 2) {
+			sum += i;
 	}
-	
-	//Output
-	document.getElementById("output").innerHTML = "The sum of all odd integers from 1 to your number, is: ";
-	document.getElementById("total").innerHTML = sum;
+	//OUTPUT display total number for user.
+document.getElementById("output").innerHTML = sum;
 }

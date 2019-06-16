@@ -4,7 +4,7 @@ PROCESSING: compute sum of all odd integers between 1 and the user's integer, in
 OUTPUT: display the toal of all odd integers between 1 and the user's integer, inclusive.
 */
 
-function oddTotal() {
+function total() {
 	//Input
 	let n = parseInt(document.getElementById("number").value); 
 	
@@ -16,5 +16,5 @@ function oddTotal() {
 	
 	//Output
 	document.getElementById("output").innerHTML = "The sum of all odd integers from 1 to your number, is: ";
-	document.getElementById("totalOdd").innerHTML = sum;
+	document.getElementById("total").innerHTML = sum;
 }

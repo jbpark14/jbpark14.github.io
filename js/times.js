@@ -9,7 +9,7 @@ document.getElementById('currentdate').innerHTML = date;
 // PROCESSING: Calculate the times table from 1 to 12 of persons input
 // OUTPUT: Display times table
 
-function multiplicationTable() {
+function multiTable() {
 	let num = parseInt(document.getElementById("num").value);
 	let Table = "";
 	

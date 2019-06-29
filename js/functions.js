@@ -4,7 +4,7 @@ Processing: Determine if we can get the wind chill factor based upon the maximum
 If the input parameters do not meet those constraints, then the function should return "N/A" which means "Not Applicable".
 Output: the wind chill factor in Fahrenheit*/
 
-function functions() {
+function doInputOutput() {
 	//input
 	let temperature = parseFloat(document.getElementById("temperature").value);
 	let windSpeed = parseFloat(document.getElementById("speed").value);

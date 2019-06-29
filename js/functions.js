@@ -15,13 +15,13 @@ function doInputOutput() {
 }
 
 function windChill(tempF, speed) {
-	if ((t > 50) || (speed < 3)) {
+	if ((tempF > 50) || (speed < 3)) {
 		let result = "N/A";
 		return result ;
 	}
 	
 	else {
-		let result = 35.74 + 0.6215 * t - 35.75 * Math.pow(speed, 0.16) + 0.4275 * t * Math.pow(speed, 0.16);
+		let result = 35.74 + 0.6215 * tempF - 35.75 * Math.pow(speed, 0.16) + 0.4275 * tempF * Math.pow(speed, 0.16);
 		return result ;
 	}
 }

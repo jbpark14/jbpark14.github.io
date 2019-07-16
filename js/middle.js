@@ -12,7 +12,7 @@ document.getElementById("currentdate").innerHTML = date;
 
 //Input
 function getMiddle(list) {
-  list= [1,3,5,7,9,11];
+  list= [10,30,50,70,90,110];
   let middleNumber= 0;
   numLength =list.length;
   if(numLength%2===0){

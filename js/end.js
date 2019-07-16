@@ -12,11 +12,11 @@ document.getElementById("currentdate").innerHTML = date;
 */
 
 //Input
-function addends(list) {
-  list= [5, 10, 15, 20, 25];
-  let firstNumber= list[0];
-  let lastNumber=list[list.length-1];
-  let addNumber= firstNumber+lastNumber;
-  document.getElementById("output").innerHTML=addNumber;
-  document.getElementById("showArray").innerHTML=list;
+function addEnds(list) {
+    list = [5, 10, 15, 20, 25];
+    let firstItem = list[0];
+    let lastItem = list[list.length - 1];
+    let addThem = firstItem + lastItem;
+    document.getElementById("output").innerHTML = addThem;
+    document.getElementById("showArray").innerHTML = list;
 }

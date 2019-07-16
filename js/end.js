@@ -13,7 +13,7 @@ document.getElementById("currentdate").innerHTML = date;
 
 //Input
 function addends(list) {
-  list= [1,3,5,7,9,11];
+  list= [5, 10, 15, 20, 25];
   let firstNumber= list[0];
   let lastNumber=list[list.length-1];
   let addNumber= firstNumber+lastNumber;
